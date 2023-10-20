@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.body {
+  font-family: 'inter', sans-serif;
+  margin: 0;
+}
+
+.cabecalho {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #7C71FF;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+li {
+  display: inline-block;
+  background-color: #D7E2FF;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.lista-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.li a {
+  list-style: none;
+  background-color: #FFFFFF;
+}
+
+.info-usuario {
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.nome {
+  text-transform: uppercase;
+}
+
+.secao-colecao {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #D7E2FF;
+  color: #200065;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-site {
+  color: #0075FF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+
+}
+
+.topico-clientes {
+  background-color: #AEBFEB;
+  ;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.container article {
+  margin: 56px;
+  display: inline-block;
+  justify-content: space-evenly;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  background-color: #D4E0FF;
+  border-width: 10px;
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+  border-color: #D4E0FF;
+  flex-shrink: 0;
+}
+
+.article-lista {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.compras {
+  background-color: #D7E2FF;
+  height: 300px;
+}
+
+.pedidos {
+  text-align: center;
+  align-items: center;
+  color: #200065;
+  font-size: 32px;
+  background-color: #D7E2FF;
+
+}
+
+.nomes-clientes {
+  background-color: #AEBFEB;
+}
+
+.secao-avaliacao {
+  margin-bottom: 20px;
+}
+
+.precos-produtos {
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.precos-produtos table {
+  border-collapse: collapse;
+}
+
+.precos-produtos table th,
+.precos-produtos table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #1E1E1E;
+  background: #FFF;
+  min-width: 200px;
+  flex-shrink: 0;
+
+}
+
+.contato {
+  background-color: #AEBFEB;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.fale-conosco {
+  text-align: center;
+  color: #200065;
+  font-size: 32px;
+
+}
+
+.secao-fale-conosco {
+  margin: 56px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+
+.rodape {
+  background-color: #3F3F3F;
+  height: 50px;
+  flex-shrink: 0;
+  align-items: center;
+}
